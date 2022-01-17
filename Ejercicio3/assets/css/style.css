@@ -1,0 +1,139 @@
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+   }
+
+.bandera{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    float: left;
+    border: 1px solid black;
+}
+/*bandera de españa */
+.espana__1{
+    background-color: red;
+    height: 79.3px;
+}
+
+.espana__2{
+    background-color:yellow;
+    height: 140px;
+}
+
+/*bandera de dinamarca */
+.primera-parte-dinamarca{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
+
+.dinamarca__1{
+    background-color: red;
+    height: 135px;
+    width: 135px;
+    
+}
+
+.dinamarca__2{
+    background-color: red;
+    height: 135px;
+    width: 335px;
+    margin-left: 30px;
+}
+
+.segunda-parte-dinamarca{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.dinamarca__3{
+    background-color: red;
+    height: 133px;
+    width: 135px;
+    margin-top: 30px;
+}
+
+.dinamarca__4{
+    background-color: red;
+    height: 133px;
+    width: 335px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+
+/*bandera de emiratos arabes */
+.bandera-emiratos-arabes{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.emiratos__1{
+    background-color: red;
+    width: 130px;
+    height: 100%;
+}
+
+.emiratos__2{
+    background-color: green;
+    width: 370px;
+    height: 33.33%;
+}
+
+.emiratos__3{
+    background-color: white;
+    width: 370px;
+    height: 33.33%;
+}
+.emiratos__4{
+    background-color: black;
+    width: 370px;
+    height: 33.4%;
+}
+
+/*bandera de japon */
+
+.bandera-japon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*titulos*/
+h1{
+    font-size: large;
+    font-weight: 100;
+    margin-top: 10px;
+}
+
+.titulo-emiratos{
+    position: absolute;
+    left: 29px;
+}
+
+.titulo-japon{
+    position: absolute;
+    right: 925px;
+    bottom: 41px;
+}
+
